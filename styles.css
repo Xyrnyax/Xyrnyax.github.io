@@ -1,0 +1,73 @@
+body {
+  background-image: url("images/фон3.jpg");
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #0be4b5;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 54, 0), 0 0 0.2em rgb(0, 54, 0);
+
+}
+
+h2 {
+  text-align: center
+}
+
+.image-container p {
+  width: 700px;
+  margin: 0 auto 8px;
+  font-family: "Georgia", sans-serif;
+  text-align: left;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px
+}
+
+.image-container img {
+
+  float: left;
+  margin-right: 80px;
+  margin-left: 500px
+}
+
+.photo-group {
+  display: flex;
+  justify-content: flex-start;
+  /* выравнивание по левому краю */
+  margin-left: 500px;
+  /* отрицательный margin для сдвига влево */
+  align-items: center;
+  /* выравнивание контента по вертикали */
+  margin-bottom: 10px;
+  /* отступ снизу */
+  float: left;
+  margin-right: 10px;
+  /* создаем пространство между изображениями и текстом */
+
+}
+
+.photo-group p {
+  margin: 0;
+  /* сброс отступов */
+  margin-left: 100px;
+  /* передвигаем текст вправо от группы изображений */
+  font-size: 30px;
+  /* размер шрифта для текста */
+  line-height: 1.4;
+  /* межстрочный интервал */
+}
+
+img {
+  margin-right: 10px;
+  /* отступ между изображением и текстом */
+  max-width: 100%;
+  /* максимальная ширина изображения */
+}
+
+
+.photo-group img {
+  margin-left: 10px;
+  /* margin между изображениями */
+}
