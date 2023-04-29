@@ -32,7 +32,7 @@ h2 {
   margin-left: 500px
 }
 
-.photo-group {
+.photo-group1 {
   display: flex;
   justify-content: flex-start;
   /* выравнивание по левому краю */
@@ -40,15 +40,12 @@ h2 {
   /* отрицательный margin для сдвига влево */
   align-items: center;
   /* выравнивание контента по вертикали */
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   /* отступ снизу */
-  float: left;
-  margin-right: 10px;
-  /* создаем пространство между изображениями и текстом */
 
 }
 
-.photo-group p {
+.photo-group1 p {
   margin: 0;
   /* сброс отступов */
   margin-left: 100px;
@@ -58,16 +55,88 @@ h2 {
   line-height: 1.4;
   /* межстрочный интервал */
 }
+.photo-group1 img {
+  margin-left: 10px;
+  /* margin между изображениями */
+}
+.photo-group2 {
+  display: flex;
+  justify-content: flex-start;
+  /* выравнивание по левому краю */
+  margin-left: 500px;
+  /* отрицательный margin для сдвига влево */
+  align-items: center;
+  /* выравнивание контента по вертикали */
+  margin-bottom: 40px;
+  /* отступ снизу */
 
-img {
-  margin-right: 10px;
-  /* отступ между изображением и текстом */
-  max-width: 100%;
-  /* максимальная ширина изображения */
 }
 
+.photo-group2 p {
+  margin: 0;
+  /* сброс отступов */
+  margin-left: 249px;
+  /* передвигаем текст вправо от группы изображений */
+  font-size: 30px;
+  /* размер шрифта для текста */
+  line-height: 1.4;
+  /* межстрочный интервал */
+}
+.photo-group2 img {
+  margin-left: 10px;
+  /* margin между изображениями */
+}
+.photo-group3 {
+  display: flex;
+  justify-content: flex-start;
+  /* выравнивание по левому краю */
+  margin-left: 500px;
+  /* отрицательный margin для сдвига влево */
+  align-items: center;
+  /* выравнивание контента по вертикали */
+  margin-bottom: 40px;
+  /* отступ снизу */
 
-.photo-group img {
+}
+
+.photo-group3 p {
+  margin: 0;
+  /* сброс отступов */
+  margin-left: 100px;
+  /* передвигаем текст вправо от группы изображений */
+  font-size: 30px;
+  /* размер шрифта для текста */
+  line-height: 1.4;
+  /* межстрочный интервал */
+}
+.photo-group3 img {
+  margin-left: 10px;
+  /* margin между изображениями */
+}
+.photo-group4 {
+  display: flex;
+  justify-content: flex-start;
+  /* выравнивание по левому краю */
+  margin-left: 500px;
+  /* отрицательный margin для сдвига влево */
+  align-items: center;
+  /* выравнивание контента по вертикали */
+  margin-bottom: 40px;
+  /* отступ снизу */
+
+}
+
+.photo-group4 p {
+  margin: 0;
+  /* сброс отступов */
+  margin-left: 178px;
+  /* передвигаем текст вправо от группы изображений */
+  font-size: 30px;
+  /* размер шрифта для текста */
+  line-height: 1.4;
+  /* межстрочный интервал */
+}
+.photo-group4 img {
   margin-left: 10px;
   /* margin между изображениями */
 }
