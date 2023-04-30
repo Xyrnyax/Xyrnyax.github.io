@@ -7,7 +7,7 @@ body {
   line-height: 20px;
   color: #0be4b5;
   text-align: center;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 54, 0), 0 0 0.2em rgb(0, 54, 0);
+  text-shadow: 1px 1px 2px rgb(8, 1, 1), 0 0 1em rgb(13, 192, 183), 0 0 0.2em rgb(77, 6, 158);
 
 }
 
@@ -115,6 +115,7 @@ h2 {
 }
 .photo-group4 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   /* выравнивание по левому краю */
   margin-left: 500px;
